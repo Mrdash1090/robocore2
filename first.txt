@@ -1,2 +1,102 @@
-haiiiii
+   login page
+  
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/imageView"
+        >
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOT YET REGISTERED?"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:typeface="serif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+</RelativeLayout>
+
+*********************************************************************************
+colors.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23a7db</color>
+    <color name="colorPrimaryDark">#1c85ac</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="transparent">#d3ffff</color>
+    <color name="gradient_start">#19aa88</color>
+    <color name="gradient_end">#23a7d8</color>
+
+</resources>
+*****************************************************************************
+styles.xml
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
+
 
