@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/grad_bg"
+    android:background="@drawable/signUp_bg"
     android:orientation="vertical"
     android:padding="30dp"
     tools:context=".sign_up">
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            
+
             android:ems="10"
             android:inputType="text"
             android:textSize="20sp"/>
@@ -71,7 +71,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:layout_marginTop="5dp"
-        android:textColorHint="@color/white">
+        android:textColorHint="@color/white"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -89,10 +89,11 @@
         >
 
         <TextureView
+            android:id="@+id/gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gender :"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <RadioButton
             android:layout_width="wrap_content"
