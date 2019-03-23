@@ -20,7 +20,8 @@
         <activity android:name=".sign_up" />
         <activity android:name=".home_pg" />
         <activity android:name=".sub_registration" />
-        <activity android:name=".subject_status"></activity>
+        <activity android:name=".subject_status" />
+        <activity android:name=".remove_subject"></activity>
     </application>
 
 </manifest>
