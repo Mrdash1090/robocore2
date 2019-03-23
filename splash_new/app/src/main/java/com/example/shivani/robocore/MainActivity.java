@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        signUp = findViewById(R.id.tvRegister);
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        signUp = findViewById(R.id.tvRegister);
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
