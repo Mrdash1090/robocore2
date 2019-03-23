@@ -18,10 +18,17 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".sign_up" />
+<<<<<<< HEAD
         <activity
             android:name=".nav_window"
             android:label="@string/title_activity_nav_window"
             android:theme="@style/AppTheme"></activity>
+=======
+        <activity android:name=".home_pg" />
+        <activity android:name=".sub_registration" />
+        <activity android:name=".subject_status" />
+        <activity android:name=".remove_subject"></activity>
+>>>>>>> 68a5cfc15f18533c35c842e05c2df42fd78fe416
     </application>
 
 </manifest>
