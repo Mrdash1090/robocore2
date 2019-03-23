@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002344073534",
+    "firebase_url": "https://attendance-keeper-faf73.firebaseio.com",
+    "project_id": "attendance-keeper-faf73",
+    "storage_bucket": "attendance-keeper-faf73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002344073534:android:8b89608155c2e22e",
+        "android_client_info": {
+          "package_name": "com.example.shivani.robocore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002344073534-ajeeiq4koaif6kj06g0ausv0bsbk8nbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivani.robocore",
+            "certificate_hash": "96facdb9af637415398d1ecc212132f49cc5405b"
+          }
+        },
+        {
+          "client_id": "1002344073534-gkc3elh36fdvto2u69s7mmqspfbgiq9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX9YHLSQ3g2S5SAZ-WODmDY9DGT9TSrtI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002344073534-gkc3elh36fdvto2u69s7mmqspfbgiq9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
