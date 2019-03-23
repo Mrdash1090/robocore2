@@ -19,7 +19,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".sign_up" />
         <activity android:name=".home_pg" />
-        <activity android:name=".sub_registration"></activity>
+        <activity android:name=".sub_registration" />
+        <activity android:name=".subject_status"></activity>
     </application>
 
 </manifest>
