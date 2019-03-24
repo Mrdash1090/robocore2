@@ -15,6 +15,7 @@ public class Users {
         this.password = password;
         this.passwordAgain = passwordAgain;
 
+
     }
 
     public String getName() {
@@ -56,5 +57,4 @@ public class Users {
     public void setPasswordAgain(String passwordAgain) {
         this.passwordAgain = passwordAgain;
     }
-
 }

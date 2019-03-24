@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.d("Error",usernameStr);
                             if(user.getEmail().equals(usernameStr) && user.getPassword().equals(passwordStr)){
                                 flag=1;
-                                Intent loginIntent = new Intent(getApplicationContext(), sign_up.class);
+                                Intent loginIntent = new Intent(getApplicationContext(), sub_registration.class);
                                 loginIntent.putExtra("username", usernameStr);
                                 startActivity(loginIntent);
                                 finish();

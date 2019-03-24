@@ -62,6 +62,7 @@ public class sign_up extends AppCompatActivity {
                     user.setEmail(emailStr);
                     user.setUsername(usernameStr);
                     user.setPassword(passwordStr);
+                    //user.setSubjects("false");
 
                     try{
                         ref.child(emailStr).setValue(user);
