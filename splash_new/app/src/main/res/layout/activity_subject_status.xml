@@ -12,7 +12,7 @@
         android:gravity="center"
         android:text="Subjects and percent of classes bunked :"
         android:textSize="20sp"
-        android:layout_marginTop="30"/>
+        android:layout_marginTop="30dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
