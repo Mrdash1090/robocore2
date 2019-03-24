@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_newprofile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_attn_update"
+            android:icon="@drawable/ic_attn_update"
+            android:title="Attendance Update" />
+        <item
+            android:id="@+id/nav_attn_status"
+            android:icon="@drawable/ic_status"
+            android:title="Attendance Status" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add Subject" />
+        <item
+            android:id="@+id/nav_remove"
+            android:icon="@drawable/ic_remove"
+            android:title="Remove Subject" />
+        <item
+            android:id="@+id/nav_extra_class"
+            android:icon="@drawable/ic_remainder"
+            android:title="Extra Class Remainder" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+
+
+    </group>
+
+        </menu>
+
